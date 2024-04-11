@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: #dfc966;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+nav > ul > li {
+  list-style: none;
+  margin: 0 10px;
+}
+nav > ul > li > a {
+  color: #262827;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  color: #fff;
+}
+.logo > ul > li {
+  list-style: none;
+}
+.logo > ul > li > a > img {
+  width: 150px;
+}
+section > .container {
+  display: flex;
+  justify-content: space-around;
+}
+section > .container > .container-text {
+  width: 500px;
+  padding: 50px 0;
+}
+section > .container > .container-text > h2 {
+  margin-bottom: 10px;
+}
+section > .container > .container-image > img {
+  width: 500px;
+}
+footer > .container {
+  background-color: #262827;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+footer > .container > .logo > a > img {
+  width: 150px;
+}
+footer > .container > .menu > ul > li {
+  list-style: none;
+  margin: 5px 0;
+}
+footer > .container > .menu > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner {
+  background-image: linear-gradient(
+      to right,
+      rgba(57, 57, 57, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+    ),
+    url("../assets/img/kitchen.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-btn > h2 {
+  margin: 5px 0;
+}
+.banner-btn > p {
+  margin: 20px 0;
+}
+.bannet-btn > button {
+  background: transparent;
+  padding: 10px;
+}
